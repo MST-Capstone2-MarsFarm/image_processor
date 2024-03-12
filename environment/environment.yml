@@ -10,7 +10,7 @@ dependencies:
   - pyarrow
   - openpyxl
   - pandarallel
+  - boto3
   - pip
   - pip:
     - plantcv==4.2.1
-    - Pillow-SIMD

@@ -7,6 +7,7 @@ run_jupyter()
     eval "$(conda shell.bash hook)"
     conda activate plantenv_pcv4_jupyter
 
+    #shows you what node jupyter lab is running on
     echo $(hostname)
     jupyter lab --no-browser --port=8888 > /dev/null 2>&1
 }
